@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #eee;
+    padding: 15px 30px;
+}
+
+
+.logo {
+    color:  #6495ED;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+}
+
+
+.menu-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu-links a:hover {
+    color:  #6495ED;
+}
+
+
+.menu-links .ativo {
+    color:  #6495ED;
+    font-weight: bold;
+}
+
+
+
+.banner img{
+   width: 100%;
+    height: 600px;
+}
+
+.Principais{
+   margin-top: 50px;
+    margin-bottom: 40px;
+   text-align: center;
+}
+.Principaisimg img{
+    height: 570px;
+    width: auto;
+
+}
+.avaliações{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.avaliações table{ 
+    width: 70%;
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background:white;;
+    margin-top: 40px;
+    margin-bottom: 40px;;
+
+}
+.avaliações table td{
+    padding: 14px 18px;
+    border-bottom: 1px solid;
+}
+.avaliações table td:first-child{
+    font-weight: bold;
+    width: 15%;
+}
+.avaliações table td:nth-child(2){
+    width: 70%;
+}
+.avaliações table td:last-child{
+    text-align: center;
+    font-weight: bold;
+    width: 15%;
+    color: #6495ED;
+}
+
+.barra-alerta {
+    background-color: #6495ED; 
+     color: white; 
+    text-align: center; 
+    padding: 10px; 
+     font-size: 20px; 
+   
+}
+
+
+.footer-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f5f5f5; 
+    padding: 30px; 
+    flex-wrap: wrap; 
+   
+}
+
+/* Logo */
+.footer-logo h2 {
+    color: #6495ED; 
+    font-size: 20px;
+}
+
+/* Links do site */
+.footer-link { 
+    display: flex; 
+     gap: 10px; 
+  
+}
+
+.footer-link a {
+    text-decoration: none; 
+     color: #444; 
+     font-size: 14px;
+}
+
+.footer-link a:hover {
+    color: #6495ED;  
+}
+
+.footer-redes {
+    display: flex; 
+    gap: 15px; 
+ 
+}
+
+.footer-redes a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
+
+
+.footer-redes a:hover {
+    color:  #6495ED;
+}
