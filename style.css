@@ -97,27 +97,33 @@
     font-weight: bold;
     width: 15%;
     color: #6495ED;
+
+}
+.linha-zigzag{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.linha-zigzag.invertida{
+    flex-direction: row-reverse;
+}
+.coluna-texto{
+    flex: 60%;
+}
+.coluna-imagem{
+    flex: 40%;
+}
+.coluna-imagem img{
+    width: 40%;
+    display: block;
+    border-radius: 8px;
 }
 
-.Sobrenos{
-    width: 100%;
-    border-collapse: collapse;
-}
-.Sobrenos h1{
-    text-align: center;
-    margin: 0 auto;
-    gap: 20px;
-    font-size: 35px;
-}
-.Sobrenos h2{
-    gap: 20px;
-    font-size: 30px;
-}
-.Sobrenos p{
-    gap: 20px;
-    width: 50%;
-    font-size: 25px;
-}
 
 
 
